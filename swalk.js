@@ -172,6 +172,15 @@ jQuery.fn.extend({
                                     options["didOpen"](el);
                             },
 
+                            willClose: () => {
+
+                                identifier.dispatchEvent(new Event('swalk:close'))
+                                if(typeof options["willClose"] === "function") 
+                                    options["willClose"](el);
+                            },
+
+                            timerProgressBar : (options["timerProgressBar"]) || (options["timer"] !== undefined),
+
                             showConfirmButton : (options["showConfirmButton"]) || (options["confirmButtonText"] !== undefined),
                             showDenyButton    : (options[ "showDenyButton"])   || (options[ "denyButtonText"] !== undefined),
                             showCancelButton  : (options[ "showCancelButton"]) || (options[ "cancelButtonText"] !== undefined),
