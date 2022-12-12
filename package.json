@@ -8,7 +8,7 @@
     "type": "git"
   },
   "dependencies": {
-    "sweetalert2": "^11.6.15"
+    "sweetalert2": "11.4.8"
   },
   "publishConfig": {
     "access": "public"
