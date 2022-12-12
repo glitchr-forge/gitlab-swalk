@@ -7,6 +7,9 @@
     "url": "ssh://git@gitlab.glitchr.dev:public-repository/javascript/swalk.git",
     "type": "git"
   },
+  "dependencies": {
+    "sweetalert2": "^11.6.15"
+  },
   "author": "Marco Meyer <marco.meyer@glitchr.io>",
   "license": "LGPL-3.0-or-later",
   "scripts": {
