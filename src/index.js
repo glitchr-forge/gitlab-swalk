@@ -39,7 +39,7 @@ jQuery.fn.extend({
 
 })(this, function () {
 
-    var Swalk = {};
+    var Swalk = window.Swalk = {};
         Swalk.version = '0.1.0';
 
     var Settings = Swalk.settings = {
