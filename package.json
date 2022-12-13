@@ -2,7 +2,7 @@
   "name": "@glitchr/swalk",
   "version": "1.0.5",
   "description": "Sweet alert2 - extension",
-  "main": "index.js",
+  "main": "src/index.js",
   "repository": {
     "url": "ssh://git@gitlab.glitchr.dev:public-repository/javascript/swalk.git",
     "type": "git"
