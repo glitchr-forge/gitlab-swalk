@@ -1,6 +1,6 @@
 {
   "name": "@glitchr/swalk",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Sweet alert2 - extension",
   "main": "src/index.js",
   "repository": {
