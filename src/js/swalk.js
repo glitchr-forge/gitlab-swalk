@@ -155,7 +155,7 @@ jQuery.fn.extend({
 
                         delete options["labelledby"];
 
-                        Swal.fire(Object.assign({}, options, {
+                        Sweetalert.fire(Object.assign({}, options, {
 
                             title: title,
                             html : html,
