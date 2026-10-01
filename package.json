@@ -4,8 +4,8 @@
   "description": "Sweet alert2 - extension",
   "main": "src/index.js",
   "repository": {
-    "url": "ssh://git@gitlab.glitchr.dev:public-repository/javascript/swalk.git",
-    "type": "git"
+    "type": "git",
+    "url": "git+https://github.com/glitchr-studio/swalk.git"
   },
   "dependencies": {
     "sweetalert2": "11.4.8"
